@@ -1,0 +1,6 @@
+{"t_first":0.0,"t_last":0.1,"src":"10.0.0.10","dst":"10.0.0.20","sport":43120,"dport":80,"proto":"TCP","duration":0.1,"pkts_fwd":5,"pkts_bwd":3,"bytes_fwd":520,"bytes_bwd":680,"label":"malicious","attack":"Port Scanning"}
+{"t_first":1.0,"t_last":1.2,"src":"10.0.0.10","dst":"10.0.0.20","sport":43121,"dport":8080,"proto":"TCP","duration":0.2,"pkts_fwd":8,"pkts_bwd":4,"bytes_fwd":920,"bytes_bwd":740,"label":"malicious","attack":"Vulnerability Scanner"}
+{"t_first":2.0,"t_last":2.4,"src":"10.0.0.10","dst":"10.0.0.20","sport":43122,"dport":53,"proto":"UDP","duration":0.4,"pkts_fwd":12,"pkts_bwd":6,"bytes_fwd":1500,"bytes_bwd":900,"label":"malicious","attack":"MITM"}
+{"t_first":3.0,"t_last":3.8,"src":"10.0.0.10","dst":"10.0.0.20","sport":43123,"dport":443,"proto":"TCP","duration":0.8,"pkts_fwd":40,"pkts_bwd":25,"bytes_fwd":12000,"bytes_bwd":9000,"label":"malicious","attack":"Uploading"}
+{"t_first":0.5,"t_last":0.7,"src":"10.0.0.30","dst":"10.0.0.40","sport":51000,"dport":443,"proto":"TCP","duration":0.2,"pkts_fwd":4,"pkts_bwd":4,"bytes_fwd":400,"bytes_bwd":600,"label":"benign","attack":"Normal"}
+{"t_first":1.5,"t_last":1.7,"src":"10.0.0.31","dst":"10.0.0.41","sport":51001,"dport":53,"proto":"UDP","duration":0.2,"pkts_fwd":2,"pkts_bwd":2,"bytes_fwd":140,"bytes_bwd":220,"label":"benign","attack":"Normal"}
